@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7998AC852FCCE40A007AB64A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7998AC832FCCE409007AB64A /* README.md */; };
+		7998AC862FCCE40A007AB64A /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7998AC842FCCE409007AB64A /* License.txt */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		7998AC752FCCE3C7007AB64A /* DatePlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatePlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7998AC832FCCE409007AB64A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7998AC842FCCE409007AB64A /* License.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +39,8 @@
 		7998AC6C2FCCE3C7007AB64A = {
 			isa = PBXGroup;
 			children = (
+				7998AC832FCCE409007AB64A /* README.md */,
+				7998AC842FCCE409007AB64A /* License.txt */,
 				7998AC772FCCE3C7007AB64A /* DatePlanner */,
 				7998AC762FCCE3C7007AB64A /* Products */,
 			);
@@ -109,6 +118,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7998AC852FCCE40A007AB64A /* README.md in Resources */,
+				7998AC862FCCE40A007AB64A /* License.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
