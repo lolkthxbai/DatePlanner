@@ -9,7 +9,7 @@ struct EventEditor: View {
     var isNew = false
     
     @State private var isDeleted = false
-    @EnvironmentObject var eventData: EventData
+    @Environment(EventData.self) var eventData
     @Environment(\.dismiss) private var dismiss
     
     // Keep a local copy in case we make edits, so we don't disrupt the list of events.

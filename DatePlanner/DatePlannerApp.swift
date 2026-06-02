@@ -6,7 +6,7 @@ import SwiftUI
 
 @main
 struct DatePlannerApp: App {
-    @StateObject private var eventData = EventData()
+    @State private var eventData = EventData()
 
     var body: some Scene {
         WindowGroup {
@@ -15,7 +15,7 @@ struct DatePlannerApp: App {
                 Text("Select an Event")
                     .foregroundStyle(.secondary)
             }
-            .environmentObject(eventData)
+			.environment(eventData)
 
         }
     }

@@ -5,7 +5,7 @@ See the License.txt file for this sample’s licensing information.
 import SwiftUI
 
 struct EventList: View {
-    @EnvironmentObject var eventData: EventData
+    @Environment(EventData.self) var eventData
     @State private var isAddingNewEvent = false
     @State private var newEvent = Event()
     
@@ -60,7 +60,7 @@ struct EventList: View {
 struct EventList_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            EventList().environmentObject(EventData())
+            EventList().environment(EventData())
 
         }
     }

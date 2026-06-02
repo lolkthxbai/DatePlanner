@@ -4,8 +4,9 @@ See the License.txt file for this sample’s licensing information.
 
 import SwiftUI
 
-class EventData: ObservableObject {
-    @Published var events: [Event] = [
+@Observable
+class EventData {
+    var events: [Event] = [
         Event(symbol: "gift.fill",
               color: .red,
               title: "Maya's Birthday",

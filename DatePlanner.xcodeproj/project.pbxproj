@@ -9,21 +9,45 @@
 /* Begin PBXBuildFile section */
 		7998AC852FCCE40A007AB64A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7998AC832FCCE409007AB64A /* README.md */; };
 		7998AC862FCCE40A007AB64A /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7998AC842FCCE409007AB64A /* License.txt */; };
+		79B329E02FCE43BC00B22F32 /* ColorOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B329D12FCE43BC00B22F32 /* ColorOption.swift */; };
+		79B329E12FCE43BC00B22F32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B329D22FCE43BC00B22F32 /* ContentView.swift */; };
+		79B329E22FCE43BC00B22F32 /* DatePlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B329D32FCE43BC00B22F32 /* DatePlannerApp.swift */; };
+		79B329E32FCE43BC00B22F32 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B329D42FCE43BC00B22F32 /* Event.swift */; };
+		79B329E42FCE43BC00B22F32 /* EventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B329D52FCE43BC00B22F32 /* EventData.swift */; };
+		79B329E52FCE43BC00B22F32 /* EventDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B329D62FCE43BC00B22F32 /* EventDetail.swift */; };
+		79B329E62FCE43BC00B22F32 /* EventEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B329D72FCE43BC00B22F32 /* EventEditor.swift */; };
+		79B329E72FCE43BC00B22F32 /* EventList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B329D82FCE43BC00B22F32 /* EventList.swift */; };
+		79B329E82FCE43BC00B22F32 /* EventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B329D92FCE43BC00B22F32 /* EventRow.swift */; };
+		79B329E92FCE43BC00B22F32 /* EventSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B329DA2FCE43BC00B22F32 /* EventSymbols.swift */; };
+		79B329EA2FCE43BC00B22F32 /* EventTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B329DB2FCE43BC00B22F32 /* EventTask.swift */; };
+		79B329EB2FCE43BC00B22F32 /* SFSymbolStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B329DC2FCE43BC00B22F32 /* SFSymbolStyling.swift */; };
+		79B329EC2FCE43BC00B22F32 /* SymbolPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B329DD2FCE43BC00B22F32 /* SymbolPicker.swift */; };
+		79B329ED2FCE43BC00B22F32 /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B329DE2FCE43BC00B22F32 /* TaskRow.swift */; };
+		79B329EE2FCE43BC00B22F32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79B329CE2FCE43BC00B22F32 /* Preview Assets.xcassets */; };
+		79B329EF2FCE43BC00B22F32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79B329D02FCE43BC00B22F32 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7998AC752FCCE3C7007AB64A /* DatePlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatePlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7998AC832FCCE409007AB64A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7998AC842FCCE409007AB64A /* License.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		79B329CE2FCE43BC00B22F32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		79B329D02FCE43BC00B22F32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79B329D12FCE43BC00B22F32 /* ColorOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorOption.swift; sourceTree = "<group>"; };
+		79B329D22FCE43BC00B22F32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		79B329D32FCE43BC00B22F32 /* DatePlannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePlannerApp.swift; sourceTree = "<group>"; };
+		79B329D42FCE43BC00B22F32 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		79B329D52FCE43BC00B22F32 /* EventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventData.swift; sourceTree = "<group>"; };
+		79B329D62FCE43BC00B22F32 /* EventDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetail.swift; sourceTree = "<group>"; };
+		79B329D72FCE43BC00B22F32 /* EventEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEditor.swift; sourceTree = "<group>"; };
+		79B329D82FCE43BC00B22F32 /* EventList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventList.swift; sourceTree = "<group>"; };
+		79B329D92FCE43BC00B22F32 /* EventRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRow.swift; sourceTree = "<group>"; };
+		79B329DA2FCE43BC00B22F32 /* EventSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSymbols.swift; sourceTree = "<group>"; };
+		79B329DB2FCE43BC00B22F32 /* EventTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTask.swift; sourceTree = "<group>"; };
+		79B329DC2FCE43BC00B22F32 /* SFSymbolStyling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolStyling.swift; sourceTree = "<group>"; };
+		79B329DD2FCE43BC00B22F32 /* SymbolPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolPicker.swift; sourceTree = "<group>"; };
+		79B329DE2FCE43BC00B22F32 /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		7998AC772FCCE3C7007AB64A /* DatePlanner */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = DatePlanner;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7998AC722FCCE3C7007AB64A /* Frameworks */ = {
@@ -41,7 +65,7 @@
 			children = (
 				7998AC832FCCE409007AB64A /* README.md */,
 				7998AC842FCCE409007AB64A /* License.txt */,
-				7998AC772FCCE3C7007AB64A /* DatePlanner */,
+				79B329DF2FCE43BC00B22F32 /* DatePlanner */,
 				7998AC762FCCE3C7007AB64A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,6 +76,37 @@
 				7998AC752FCCE3C7007AB64A /* DatePlanner.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		79B329CF2FCE43BC00B22F32 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				79B329CE2FCE43BC00B22F32 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		79B329DF2FCE43BC00B22F32 /* DatePlanner */ = {
+			isa = PBXGroup;
+			children = (
+				79B329D12FCE43BC00B22F32 /* ColorOption.swift */,
+				79B329D22FCE43BC00B22F32 /* ContentView.swift */,
+				79B329D32FCE43BC00B22F32 /* DatePlannerApp.swift */,
+				79B329D42FCE43BC00B22F32 /* Event.swift */,
+				79B329D52FCE43BC00B22F32 /* EventData.swift */,
+				79B329D62FCE43BC00B22F32 /* EventDetail.swift */,
+				79B329D72FCE43BC00B22F32 /* EventEditor.swift */,
+				79B329D82FCE43BC00B22F32 /* EventList.swift */,
+				79B329D92FCE43BC00B22F32 /* EventRow.swift */,
+				79B329DA2FCE43BC00B22F32 /* EventSymbols.swift */,
+				79B329DB2FCE43BC00B22F32 /* EventTask.swift */,
+				79B329DC2FCE43BC00B22F32 /* SFSymbolStyling.swift */,
+				79B329DD2FCE43BC00B22F32 /* SymbolPicker.swift */,
+				79B329DE2FCE43BC00B22F32 /* TaskRow.swift */,
+				79B329D02FCE43BC00B22F32 /* Assets.xcassets */,
+				79B329CF2FCE43BC00B22F32 /* Preview Content */,
+			);
+			path = DatePlanner;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -68,9 +123,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				7998AC772FCCE3C7007AB64A /* DatePlanner */,
 			);
 			name = DatePlanner;
 			packageProductDependencies = (
@@ -120,6 +172,8 @@
 			files = (
 				7998AC852FCCE40A007AB64A /* README.md in Resources */,
 				7998AC862FCCE40A007AB64A /* License.txt in Resources */,
+				79B329EE2FCE43BC00B22F32 /* Preview Assets.xcassets in Resources */,
+				79B329EF2FCE43BC00B22F32 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +184,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79B329E02FCE43BC00B22F32 /* ColorOption.swift in Sources */,
+				79B329E12FCE43BC00B22F32 /* ContentView.swift in Sources */,
+				79B329E22FCE43BC00B22F32 /* DatePlannerApp.swift in Sources */,
+				79B329E32FCE43BC00B22F32 /* Event.swift in Sources */,
+				79B329E42FCE43BC00B22F32 /* EventData.swift in Sources */,
+				79B329E52FCE43BC00B22F32 /* EventDetail.swift in Sources */,
+				79B329E62FCE43BC00B22F32 /* EventEditor.swift in Sources */,
+				79B329E72FCE43BC00B22F32 /* EventList.swift in Sources */,
+				79B329E82FCE43BC00B22F32 /* EventRow.swift in Sources */,
+				79B329E92FCE43BC00B22F32 /* EventSymbols.swift in Sources */,
+				79B329EA2FCE43BC00B22F32 /* EventTask.swift in Sources */,
+				79B329EB2FCE43BC00B22F32 /* SFSymbolStyling.swift in Sources */,
+				79B329EC2FCE43BC00B22F32 /* SymbolPicker.swift in Sources */,
+				79B329ED2FCE43BC00B22F32 /* TaskRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +329,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -292,7 +360,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
