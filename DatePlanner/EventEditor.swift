@@ -80,8 +80,7 @@ struct EventEditor: View {
     }
 }
 
-struct EventEditor_Previews: PreviewProvider {
-    static var previews: some View {
-        EventEditor(event: .constant(Event()))
-    }
+#Preview {
+	EventEditor(event: .constant(Event()))
+		.environment(EventData())
 }

@@ -9,16 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+		NavigationView {
+			EventList()
+			Text("Select an Event")
+		}
+		.foregroundStyle(.secondary)
     }
 }
 
 #Preview {
     ContentView()
+		//inject the data for preview to render
+		.environment(EventData())
 }

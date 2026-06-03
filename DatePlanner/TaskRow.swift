@@ -42,8 +42,6 @@ struct TaskRow: View {
         
 }
 
-struct TaskRow_Previews: PreviewProvider {
-    static var previews: some View {
-        TaskRow(task: .constant(EventTask(text: "Do something!")), isEditing: false)
-    }
+#Preview {
+	TaskRow(task: .constant(EventTask(text: "Do something!")), isEditing: false)
 }

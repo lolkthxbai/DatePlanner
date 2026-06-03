@@ -33,8 +33,6 @@ struct EventRow: View {
     }
 }
 
-struct EventRow_Previews: PreviewProvider {
-    static var previews: some View {
-        EventRow(event: Event.example)
-    }
+#Preview {
+	EventRow(event: Event.example)
 }

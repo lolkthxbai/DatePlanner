@@ -57,11 +57,9 @@ struct EventList: View {
     }
 }
 
-struct EventList_Previews: PreviewProvider {
-    static var previews: some View {
-        NavigationView {
-            EventList().environment(EventData())
-
-        }
-    }
+#Preview {
+	NavigationView {
+		EventList()
+			.environment(EventData())
+	}
 }

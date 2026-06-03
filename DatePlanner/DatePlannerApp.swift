@@ -10,13 +10,8 @@ struct DatePlannerApp: App {
 
     var body: some Scene {
         WindowGroup {
-            NavigationView {
-                EventList()
-                Text("Select an Event")
-                    .foregroundStyle(.secondary)
-            }
-			.environment(eventData)
-
+			ContentView()
+				.environment(eventData)
         }
     }
 }
